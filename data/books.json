@@ -1,0 +1,15 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "learn data base",
+            "description": "learn data base from scratch",
+            "price": 40
+        },{
+            "id": 2,
+            "title": "power of now",
+            "description": "lorem sit amet, consectetur",
+            "price": 50
+        }
+    ]
+}

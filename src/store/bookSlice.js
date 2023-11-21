@@ -5,7 +5,7 @@ export const getBooks = createAsyncThunk(
   async (_, thunkAPI) => {
     try {
       const res = await fetch(
-        "http://my-json-server.typicode.com/dmitrijt9/book-api-mock/books"
+        "http://localhost:3002/books"
       );
       const data = await res.json();
       return data;
